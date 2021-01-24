@@ -40,3 +40,7 @@ const huseyin={
     }
 }
 ```
+### JS Engine
+İki bileşeni vardır: Call Stack ve Heap
+Call Stack'de function execute edilir. Primative variable lar call stack de tutulur.
+Heap de ise object'ler tutulur.
