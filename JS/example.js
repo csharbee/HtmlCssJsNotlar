@@ -13,3 +13,7 @@ const add= function(a,b){
   return a+b;
 }
 add(2,5);  // arg= [2,5];
+
+const arr= [1,2,3];
+const newArr= [4,5, ...arr];
+// newArr= [4,5,1,2,3];
