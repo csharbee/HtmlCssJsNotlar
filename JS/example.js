@@ -15,5 +15,5 @@ const add= function(a,b){
 add(2,5);  // arg= [2,5];
 
 const arr= [1,2,3];
-const newArr= [4,5, ...arr]; // Spread operator 
+const newArr= [4,5, ...arr]; // Spread operator. Sadece function parametresi olarak ya da arraylarde kullanılır.
 // newArr= [4,5,1,2,3]; 
