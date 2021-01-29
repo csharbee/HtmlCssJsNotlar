@@ -19,3 +19,7 @@ const newArr= [4,5, ...arr]; // Spread operator. Sadece function parametresi ola
 // newArr= [4,5,1,2,3]; 
 
 const [a,b,...c] =[1,2,3,4,5]; // a=1, b=2, c=[3,4,5]
+
+console.log(3 || 'test'); // 3 (first truthy value is 3)
+console.log('' || 'test'); // test
+console.log(undefined || null); // null
