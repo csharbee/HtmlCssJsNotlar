@@ -28,3 +28,11 @@ console.log(undefined || null); // null
 console.log(3 && 'test'); // test (last truthy value)
 console.log('' && 'test'); // '' (first falsy valeu )
 console.log(undefined && null); // undefined
+
+
+const teams= ["GS","FB","BJK","GS","TS","GS","FB"];
+const uniqueTeams= new Set(teams);
+uniqueTeams.add("GB");
+uniqueTeams.delete("GB");
+uniqueTeams.has("GS");
+uniqueTeams.clear();
