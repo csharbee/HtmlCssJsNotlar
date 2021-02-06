@@ -36,3 +36,11 @@ uniqueTeams.add("GB");
 uniqueTeams.delete("GB");
 uniqueTeams.has("GS");
 uniqueTeams.clear();
+
+
+const maskCreditCard= function(number){
+  const strNumber= number+''; // to string
+  const lastFourDigit= strNumber.slice(-4);
+  return lastFourDigit.padStart(strNumber.length,'*');
+}
+
